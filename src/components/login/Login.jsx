@@ -60,7 +60,7 @@ function Login() {
                   <span>
                     <Link
                       className="text-center ms-3 h6 animated fadeInUp"
-                      to="/Registration"
+                      to="/regis"
                     >
                       Sign Up{" "}
                     </Link>
