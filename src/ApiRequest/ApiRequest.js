@@ -10,7 +10,7 @@ import {
 import { SetSummary } from "../redux/state-slice/SummarySlice";
 import { SetBrandSummary } from "../redux/state-slice/BrandSummSlice";
 import { SetProfile } from "../redux/state-slice/ProfileSlice";
-const BaseUrl = "http://localhost:9000/api/v1";
+const BaseUrl = "https://product-server-euo2.vercel.app/api/v1";
 
 export async function GetProfileDetails() {
   const AxiosHeader = { headers: { token: getToken() } };
