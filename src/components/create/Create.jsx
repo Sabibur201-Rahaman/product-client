@@ -53,7 +53,7 @@ else{
                 <textarea
                   ref={(input) => (brandRef = input)}
                   rows={5}
-                  placeholder="Product brand"
+                  placeholder="Product brand:only apple"
                   className="form-control animated fadeInUp"
                   type="text"
                 />
@@ -61,7 +61,7 @@ else{
                 <textarea
                   ref={(input) => (categoryRef = input)}
                   rows={5}
-                  placeholder="Product category"
+                  placeholder="Product category: only mobile"
                   className="form-control animated fadeInUp"
                   type="text"
                 />

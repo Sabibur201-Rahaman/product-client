@@ -9,7 +9,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { MdOutlineCancelPresentation } from "react-icons/md";
-import { FaApple } from "react-icons/fa";
+import { FaApple, FaMobile } from "react-icons/fa";
 import { RiDashboardLine } from "react-icons/ri";
 import { FaPlus } from "react-icons/fa";
 import { FaLaptop } from "react-icons/fa";
@@ -149,7 +149,7 @@ removeSession()
           }
           to="/category"
         >
-          <FaLaptop className="side-bar-item-icon" />
+          <FaMobile className="side-bar-item-icon" />
           <span className="side-bar-item-caption">Category</span>
         </NavLink>
       </div>
